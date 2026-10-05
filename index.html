@@ -1337,6 +1337,8 @@ document.addEventListener('keydown',e=>{
   if(e.ctrlKey||e.metaKey||e.altKey)return;
   const typing=e.target?.matches?.('input:not([type=checkbox]),textarea,select,[contenteditable="true"]'),key=e.key.length===1?e.key.toLowerCase():e.key;
   if(typing)return;
+  // Enter on a focused control belongs to that control.
+  if(key==='Enter'&&e.target?.closest?.('button,a,summary'))return;
   const openDialog=document.querySelector?.('dialog[open]');
   if(openDialog){
     if(openDialog.id==='readerDialog'&&key==='l'){e.preventDefault();readerTriage('followup')}
