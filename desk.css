@@ -406,6 +406,7 @@ kbd{font-family:inherit;font-size:11px;border:1px solid var(--line);border-botto
   .filter-panel .toolbar-filters{grid-template-columns:1fr 1fr}
   .filter-panel .mobile-person{grid-column:1/-1}
   .layout{margin-top:16px}
+  .watch-section .section-top .small,.home-split .section-top .small{display:none}
   .home-head{flex-direction:column;align-items:stretch;gap:14px;margin-top:0}
   .home-head h1{font-size:22px}
   .home-actions button{flex:1;justify-content:center}

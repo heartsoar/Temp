@@ -14,7 +14,7 @@ try{
     else if(Number.isFinite(since))refine.since=new Date(since).toISOString();
   }
 }catch{}
-function refineSave(){try{localStorage.setItem(REFINEKEY,JSON.stringify({inboxDensity:refine.inboxDensity,autoNext:refine.autoNext,boardSort:refine.boardSort,since:refine.since,lastSeen:now()}));return true}catch{return false}}
+function refineSave(){try{localStorage.setItem(REFINEKEY,JSON.stringify({inboxDensity:refine.inboxDensity,autoNext:refine.autoNext,boardSort:refine.boardSort,since:refine.since,lastSeen:now()}));refine.savedAt=Date.now();return true}catch{return false}}
 refineSave();
 
 const deskIcon=icon;
@@ -101,11 +101,14 @@ function renderBulk(){
   for(const id of [...refine.selection])if(!byId(id))refine.selection.delete(id);
   const n=refine.selection.size;$('bulkBar').hidden=!n;$('bulkCount').textContent=`已选 ${n} 条`;
   const compare=$('bulkBar').querySelector?.('[data-bulk="compare"]');if(compare){compare.disabled=n>2;compare.title=n>2?'并排对照最多两条':'并排对照所选材料'}
-  if(typeof document.querySelectorAll==='function')document.querySelectorAll('[data-row]').forEach(r=>r.classList.toggle('is-selected',refine.selection.has(r.dataset.row)));
+  if(typeof document.querySelectorAll==='function'){
+    document.querySelectorAll('[data-row]').forEach(r=>r.classList.toggle('is-selected',refine.selection.has(r.dataset.row)));
+    document.querySelectorAll('[data-select]').forEach(i=>i.checked=refine.selection.has(i.dataset.select));
+  }
 }
 function bulkAction(kind){
   const ids=[...refine.selection];if(!ids.length)return;
-  if(kind==='clear'){refine.selection.clear();renderBulk();if(typeof document.querySelectorAll==='function')document.querySelectorAll('[data-select]').forEach(i=>i.checked=false);return}
+  if(kind==='clear'){refine.selection.clear();renderBulk();return}
   if(kind==='compare'){if(ids.length>2)return toast('并排对照最多两条。');desk.compare=ids.slice(0,2);refine.selection.clear();render();if(desk.compare.length===2)openComparison();return}
   const all=ids.flatMap(id=>kind==='save'?[id]:groupIdsFor(id));
   toggleFlag(kind==='save'?'saved':'read',[...new Set(all)],kind!=='unread');
@@ -294,6 +297,8 @@ function renderRefineChrome(){
     document.querySelectorAll('.tab-icon[data-icon]').forEach(n=>{if(!n.firstChild)n.innerHTML=icon(n.dataset.icon)});
   }
   $('readerAutoNext').checked=refine.autoNext;
+  // Keep "last seen" current while the page stays open, so a reload hours later is not counted as a new visit.
+  if(Date.now()-(refine.savedAt||0)>60000)refineSave();
   renderBulk();renderSync();
 }
 const deskChrome=renderUxChrome;
@@ -356,7 +361,7 @@ document.addEventListener('click',e=>{
 document.addEventListener('change',e=>{const id=e.target?.dataset?.select;if(id)setSelection(id,e.target.checked)});
 document.addEventListener('keydown',e=>{
   if(e.ctrlKey||e.metaKey||e.altKey)return;
-  const typing=e.target?.matches?.('input,textarea,select,[contenteditable="true"]'),key=e.key.length===1?e.key.toLowerCase():e.key;
+  const typing=e.target?.matches?.('input:not([type=checkbox]),textarea,select,[contenteditable="true"]'),key=e.key.length===1?e.key.toLowerCase():e.key;
   if(typing)return;
   const openDialog=document.querySelector?.('dialog[open]');
   if(openDialog){
@@ -378,7 +383,7 @@ document.addEventListener('keydown',e=>{
   if(key==='j'||key==='ArrowDown'&&refine.cursor){e.preventDefault();moveCursor(1)}
   else if(key==='k'||key==='ArrowUp'&&refine.cursor){e.preventDefault();moveCursor(-1)}
   else if((key==='Enter'||key==='o')&&refine.cursor){e.preventDefault();readerOpen(refine.cursor)}
-  else if(key==='x'&&refine.cursor){e.preventDefault();setSelection(refine.cursor,!refine.selection.has(refine.cursor));const box=document.querySelector?.(`[data-select="${CSS.escape(refine.cursor)}"]`);if(box)box.checked=refine.selection.has(refine.cursor)}
+  else if(key==='x'&&refine.cursor){e.preventDefault();setSelection(refine.cursor,!refine.selection.has(refine.cursor))}
   else if(key==='r'&&refine.cursor){e.preventDefault();cursorToggle('read')}
   else if(key==='s'&&refine.cursor){e.preventDefault();cursorToggle('saved')}
   else if(key==='Escape'&&refine.selection.size){e.preventDefault();bulkAction('clear')}

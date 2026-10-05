@@ -78,6 +78,45 @@ nodes.get('commandSearch').onkeydown({key:'ArrowDown',preventDefault(){}});asser
 nodes.get('commandSearch').onkeydown({key:'Enter',preventDefault(){}});assert.equal(nodes.get('saveViewDialog').open,true,'Enter should execute selected command, not first');
 assert.equal(run('state.timeline.filter(x=>x.id.startsWith("ui-fixture")).length'),2);
 const scopeRows=run('uiRows().map(x=>x.id)');
+// 5.0 desk: clean headlines, list density, bulk actions, continuous triage, contextual views.
+for(const n of nodes.values())n.open=false;
+assert.equal(run('cleanTitle({title:"A headline - Yahoo Finance",source:"Yahoo Finance"})'),'A headline');
+assert.equal(run('cleanTitle({title:"Plain title",source:"Other"})'),'Plain title');
+assert.equal(run('displaySummary({title:"A headline - CNBC",source:"CNBC",summary:"公开报道摘要：A headline CNBC"})'),'','headline-only summaries are not repeated');
+assert.equal(run('displaySummary({title:"Short",source:"S",summary:"订阅摘要：A longer description that adds context."})'),'A longer description that adds context.');
+run('resetUxFilters();setInboxDensity("list");setView("timeline")');
+assert(nodes.get('feed').innerHTML.includes('class="list-row'),'list density renders one-line rows');
+assert.equal(JSON.parse(storage.get('investor-research-desk-ui-v5')).inboxDensity,'list');
+run('setInboxDensity("cards")');assert(nodes.get('feed').innerHTML.includes('class="reading-row'));
+assert(!nodes.get('feed').innerHTML.includes('公开报道摘要'),'raw summary prefixes are not shown in lists');
+const bulkIds=JSON.parse(run('JSON.stringify(groupRows(uiRows({applyContentFilters:true})).filter(g=>!state.read.includes(g.item.id)).slice(0,2).map(g=>g.item.id))'));
+scope.bulkIds=bulkIds;run('bulkIds.forEach(id=>setSelection(id,true))');assert.equal(nodes.get('bulkBar').hidden,false);
+run('bulkAction("read")');assert(run('bulkIds.every(id=>state.read.includes(id))'));assert.equal(run('refine.selection.size'),0);assert.equal(nodes.get('bulkBar').hidden,true);
+run('ux.undo()');assert(run('bulkIds.every(id=>!state.read.includes(id))'),'bulk read is undoable');
+run('setSelection(bulkIds[0],true);setView("board")');assert.equal(run('refine.selection.size'),0,'selection does not leak across views');
+assert(nodes.get('boardCards').innerHTML.includes('class="spark"'),'people cards show activity sparklines');
+run('refine.boardSort="unread";renderBoard()');assert.equal(nodes.get('boardSort').value,'unread');
+run('state.favorites=["marks"];startTriage("focus")');assert.equal(run('view'),'review');assert(run('!!refine.triage'));
+const triageFirst=run('triageItem().id');scope.triageFirst=triageFirst;
+assert.equal(run('triageItem().person'),'marks','focus triage starts with followed people');
+assert(nodes.get('triageMode').innerHTML.includes('我已核对原文与上下文'));
+run('triageDecide("verified")');assert.equal(run('verification(byId(triageFirst))'),'verified');assert.equal(run('refine.triage.index'),1);
+run('ux.undo()');assert.equal(run('verification(byId(triageFirst))'),'pending','triage verification can be undone');assert.equal(run('refine.triage.index'),0);
+for(const handler of listeners.get('keydown'))handler({key:'3',target:{matches:()=>false},preventDefault(){}});
+assert.equal(run('latestTriage(triageFirst).status'),'irrelevant','key 3 excludes the current item');assert(run('latestTriage(triageFirst).note.length>0'));
+assert(run('!!byId(triageFirst)'),'excluded items are never deleted');
+run('ux.undo()');assert.equal(run('latestTriage(triageFirst).status'),'pending');
+run('exitTriage()');assert.equal(run('refine.triage'),null);
+run('setView("sources");refine.sourceFilter="failed";renderSources()');
+const dots=[...nodes.get('sourceCards').innerHTML.matchAll(/status-dot is-([a-z]+)/g)].map(m=>m[1]);
+assert(dots.every(k=>k==='failed'),'failed filter only lists failing sources');
+run('setView("brief")');assert(nodes.get('briefContent').innerHTML.includes('brief-stats'));
+run('setView("predictions")');assert(nodes.get('forecastList').innerHTML.includes('登记第一条预测'),'empty scorecard shows guided steps');
+run('renderSync()');assert(['ok','warn','idle','offline'].includes(nodes.get('connection').dataset.sync));assert(nodes.get('connection').textContent.length>0);
+assert.equal(run('commandItems()[0].kind'),'session');assert.equal(run('commandItems()[1].kind'),'saveview');assert(run('commandItems().some(x=>x.kind==="triage")'));
+run('refine.since="2026-01-01T00:00:00Z";setView("home")');assert(nodes.get('homeContent').innerHTML.includes('自上次打开，新增'));
+assert.equal(document.documentElement.dataset.view,'home');
+assert.equal(run('state.timeline.filter(x=>x.id.startsWith("ui-fixture")).length'),2);
 // Export a static shell for optional layout inspection, without changing records.
 if(process.env.UI_STATIC_PREVIEW){run('resetUxFilters();setView("home")');let html=template.replace('/* BASE_CSS */',fs.readFileSync(path.join(ROOT,'base.css'),'utf8')).replace('/* UX_CSS */',fs.readFileSync(path.join(ROOT,'ui.css'),'utf8')).replace('/* PREMIUM_CSS */',fs.readFileSync(path.join(ROOT,'premium.css'),'utf8')).replace('/* DESK_CSS */',fs.readFileSync(path.join(ROOT,'desk.css'),'utf8'));html=html.replace(/<script>[\s\S]*?<\/script>/g,'');for(const [id,n]of nodes){if(['homeContent','watchlist','readerBody','boardCards','feed'].includes(id))html=html.replace(new RegExp('(<div id="'+id+'"[^>]*>)(</div>)'),'$1'+n.innerHTML+'$2')}html=html.replace('<section id="home" class="view" hidden>','<section id="home" class="view">').replace('<section id="board" class="view">','<section id="board" class="view" hidden>');fs.writeFileSync(process.env.UI_STATIC_PREVIEW,html)}
-console.log('PASS: initial workbench, 10 module render paths, smart query, focus scope, duplicate grouping without deletion, reader draft checkpoint and recovery, source-status separation, reversible triage, commands, filter reset, saved-view restore, query consistency, resumable sessions, focus/theme preferences, two-material comparison, palette keyboard selection. DOM stubs only.');
+console.log('PASS: initial workbench, 10 module render paths, smart query, focus scope, duplicate grouping without deletion, reader draft checkpoint and recovery, source-status separation, reversible triage, commands, filter reset, saved-view restore, query consistency, resumable sessions, focus/theme preferences, two-material comparison, palette keyboard selection, clean headlines, list density, undoable bulk actions, continuous triage keys, source filters, brief tiles, guided scorecard, sync label. DOM stubs only.');

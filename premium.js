@@ -187,7 +187,7 @@ document.addEventListener('click',e=>{
   if(d.contextAnalyze)processReader();
 });
 document.addEventListener('keydown',e=>{
-  if(e.target?.matches('input,textarea,select,[contenteditable="true"]'))return;
+  if(e.target?.matches('input:not([type=checkbox]),textarea,select,[contenteditable="true"]'))return;
   if(!$('readerDialog').open||e.ctrlKey||e.metaKey||e.altKey)return;
   if(e.key.toLowerCase()==='f'){e.preventDefault();toggleFocus()}
   if(e.key.toLowerCase()==='s'){e.preventDefault();toggleReaderFlag('saved')}
