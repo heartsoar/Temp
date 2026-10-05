@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+state.previous.json
+fetch-log.txt
