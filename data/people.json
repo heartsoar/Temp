@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "soros",
+    "name": "索罗斯",
+    "en": "George Soros",
+    "group": "资深投资人",
+    "query": "\"George Soros\" (market OR economy OR investment OR interview)",
+    "links": [
+      [
+        "本人官网",
+        "https://www.georgesoros.com/"
+      ],
+      [
+        "开放社会基金会",
+        "https://www.opensocietyfoundations.org/"
+      ],
+      [
+        "Project Syndicate",
+        "https://www.project-syndicate.org/"
+      ]
+    ],
+    "note": "已交棒下一代，重心在慈善，不再对市场表态。",
+    "channel": "官网与Project Syndicate文章；慈善动态与市场观点需区分。",
+    "ageSnapshot": 96,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "A",
+    "specialty": "宏观对冲；量子基金年化及英镑交易记录待核验。",
+    "markets": [
+      "二级",
+      "一级"
+    ],
+    "domains": [
+      "宏观"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "soros-specialty",
+        "text": "宏观对冲；量子基金年化及英镑交易记录待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "icahn",
+    "name": "伊坎",
+    "en": "Carl Icahn",
+    "group": "资深投资人",
+    "query": "\"Carl Icahn\" (investment OR market OR interview OR holdings)",
+    "links": [
+      [
+        "Icahn Enterprises",
+        "https://www.ielp.com/"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "无实质市场观点；二季度持股升至IEP的87.69%，据称系实物分红所致。",
+    "channel": "机构公告、SEC披露与公开访谈。13D/13F归入持仓线索。",
+    "ageSnapshot": 90,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "A",
+    "specialty": "事件驱动／激进主义；13D及代理权争夺记录待核验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "价值",
+      "事件驱动"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "icahn-specialty",
+        "text": "事件驱动／激进主义；13D及代理权争夺记录待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "grantham",
+    "name": "格兰瑟姆",
+    "en": "Jeremy Grantham",
+    "group": "资深投资人",
+    "query": "\"Jeremy Grantham\" (market OR bubble OR interview OR investment)",
+    "links": [
+      [
+        "GMO研究",
+        "https://www.gmo.com/americas/research-library/"
+      ]
+    ],
+    "note": "“美国史上最贵市场”；回撤可能近70%；建议60%非美股票、5–10%贵金属及债券。",
+    "channel": "GMO研究文章、公开演讲和访谈。",
+    "ageSnapshot": 88,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "A",
+    "specialty": "量化价值／泡沫识别；预判记录需与未命中预测一起检验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "估值",
+      "量化"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "grantham-specialty",
+        "text": "量化价值／泡沫识别；预判记录需与未命中预测一起检验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "lynch",
+    "name": "彼得·林奇",
+    "en": "Peter Lynch",
+    "group": "资深投资人",
+    "query": "\"Peter Lynch\" (investor OR Fidelity OR interview OR Nvidia)",
+    "links": [
+      [
+        "富达",
+        "https://www.fidelity.com/"
+      ],
+      [
+        "CNBC",
+        "https://www.cnbc.com/"
+      ]
+    ],
+    "note": "未参与AI行情，自嘲“最近才念得出英伟达”，坚持“买你懂的”。原稿引用过2025年10月访谈，须核对是否为2026新表态。",
+    "channel": "富达相关资料及公开访谈；关注旧访谈被重新传播的情况。",
+    "ageSnapshot": 82,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "A",
+    "specialty": "主观成长价值；麦哲伦基金任职期净值及29%年化说法待核验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "成长",
+      "价值"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "lynch-specialty",
+        "text": "主观成长价值；麦哲伦基金任职期净值及29%年化说法待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "marks",
+    "name": "霍华德·马克斯",
+    "en": "Howard Marks",
+    "group": "资深投资人",
+    "query": "\"Howard Marks\" (Oaktree OR economics OR market OR memo)",
+    "links": [
+      [
+        "备忘录／订阅",
+        "https://www.oaktreecapital.com/insights/memos"
+      ],
+      [
+        "橡树研究",
+        "https://www.oaktreecapital.com/insights"
+      ]
+    ],
+    "note": "原稿将《我们该废掉经济学定律吗·之三》标为10月4日；财政部回购长债被比为“给发烧病人敷冰袋”，美元“暂时还是甩不掉”。官网发布日期已核对为9月22日，摘要本身仍需逐项对照原文。",
+    "channel": "橡树官网备忘录与音频；优先阅读本人完整原文。",
+    "ageSnapshot": 80,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "信用与风险；橡树困境债务及长期备忘录体系。",
+    "markets": [
+      "债务",
+      "二级"
+    ],
+    "domains": [
+      "信用",
+      "宏观"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "marks-specialty",
+        "text": "信用与风险；橡树困境债务及长期备忘录体系。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "dalio",
+    "name": "瑞·达利欧",
+    "en": "Ray Dalio",
+    "group": "资深投资人",
+    "query": "\"Ray Dalio\" (debt OR gold OR crisis OR interview)",
+    "links": [
+      [
+        "X",
+        "https://x.com/RayDalio"
+      ],
+      [
+        "本人官网",
+        "https://www.raydalio.com/"
+      ],
+      [
+        "桥水研究",
+        "https://www.bridgewater.com/research-and-insights"
+      ]
+    ],
+    "note": "“2026像极了1929”；美国债务危机“3年左右到来”；建议10%–15%配黄金。",
+    "channel": "本人官网、X与公开访谈；桥水机构观点需核对作者。",
+    "ageSnapshot": 77,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "系统宏观；桥水策略、全天候与债务周期框架。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "宏观"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "dalio-specialty",
+        "text": "系统宏观；桥水策略、全天候与债务周期框架。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "druckenmiller",
+    "name": "德鲁肯米勒",
+    "en": "Stanley Druckenmiller",
+    "group": "资深投资人",
+    "query": "\"Stanley Druckenmiller\" (AI OR rate OR market OR interview)",
+    "links": [
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ],
+      [
+        "公开访谈检索",
+        "https://www.youtube.com/results?search_query=Stanley+Druckenmiller+interview"
+      ]
+    ],
+    "note": "9月纽约闭门会称降息“已不再必要”；AI持仓据称降至六个月前的20%。",
+    "channel": "公开访谈与闭门会报道；Duquesne的13F需另查报告期。",
+    "ageSnapshot": 73,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "主观宏观；任职、长期业绩及无亏损年说法待核验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "宏观",
+      "成长"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "druckenmiller-specialty",
+        "text": "主观宏观；任职、长期业绩及无亏损年说法待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "fink",
+    "name": "拉里·芬克",
+    "en": "Larry Fink",
+    "group": "资深投资人",
+    "query": "\"Larry Fink\" (AI OR economy OR letter OR interview)",
+    "links": [
+      [
+        "贝莱德主席信",
+        "https://www.blackrock.com/corporate/investor-relations/larry-fink-chairmans-letter"
+      ],
+      [
+        "贝莱德官网",
+        "https://www.blackrock.com/corporate"
+      ]
+    ],
+    "note": "AI热潮不是泡沫，但会加剧贫富分化、抬升应届毕业生失业率。",
+    "channel": "年度主席信、官方活动与公开访谈。",
+    "ageSnapshot": 73,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "资管／产业；贝莱德、ETF及基建业务。",
+    "markets": [
+      "二级",
+      "一级"
+    ],
+    "domains": [
+      "指数",
+      "基建"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "fink-specialty",
+        "text": "资管／产业；贝莱德、ETF及基建业务。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "jones",
+    "name": "都铎·琼斯",
+    "en": "Paul Tudor Jones",
+    "group": "资深投资人",
+    "query": "\"Paul Tudor Jones\" (bitcoin OR inflation OR market OR interview)",
+    "links": [
+      [
+        "Tudor官网",
+        "https://www.tudor.com/"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "称比特币是“最佳通胀对冲”；Tudor二季度据称增持IBIT 18.9%。",
+    "channel": "公开访谈、机构官网和13F；买入披露与口头观点分开。",
+    "ageSnapshot": 72,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "宏观／CTA；1987交易记录及后续策略待核验。",
+    "markets": [
+      "二级",
+      "期权"
+    ],
+    "domains": [
+      "宏观",
+      "加密"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "jones-specialty",
+        "text": "宏观／CTA；1987交易记录及后续策略待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "klarman",
+    "name": "克拉曼",
+    "en": "Seth Klarman",
+    "group": "资深投资人",
+    "query": "\"Seth Klarman\" (AI OR bubble OR market OR interview)",
+    "links": [
+      [
+        "Baupost官网",
+        "https://www.baupost.com/"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "市场“具备泡沫特征”但非泡沫；只买守得住倍数的AI受益股，如亚马逊、Alphabet。",
+    "channel": "公开活动与访谈；闭门材料仅作转述线索。",
+    "ageSnapshot": 69,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "深度价值；著作、收益及亏损年份统计待核验。",
+    "markets": [
+      "二级",
+      "一级",
+      "期权"
+    ],
+    "domains": [
+      "价值",
+      "信用"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "klarman-specialty",
+        "text": "深度价值；著作、收益及亏损年份统计待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "gundlach",
+    "name": "冈拉克",
+    "en": "Jeffrey Gundlach",
+    "group": "资深投资人",
+    "query": "\"Jeffrey Gundlach\" (AI OR inflation OR market OR dollar)",
+    "links": [
+      [
+        "直播与回放",
+        "https://doubleline.com/doubleline-webcasts/"
+      ],
+      [
+        "DoubleLine研究",
+        "https://doubleline.com/markets-insights/"
+      ]
+    ],
+    "note": "原稿称10月2日标普500为“空心树”：80%成分股较高点跌超10%、39%跌超20%；据称自身AI敞口已清零。",
+    "channel": "DoubleLine官方Gundlach Unlocked直播及回放。",
+    "ageSnapshot": 67,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "B",
+    "specialty": "固收／宏观；债券与信用策略、荣誉及长期业绩待核验。",
+    "markets": [
+      "债务",
+      "二级"
+    ],
+    "domains": [
+      "信用",
+      "宏观"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "gundlach-specialty",
+        "text": "固收／宏观；债券与信用策略、荣誉及长期业绩待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "wood",
+    "name": "Cathie Wood",
+    "en": "Cathie Wood",
+    "group": "中生代与科技投资人",
+    "query": "\"Cathie Wood\" (AI OR inflation OR ARK OR interview)",
+    "links": [
+      [
+        "ARK研究中心",
+        "https://www.ark-invest.com/research-center"
+      ],
+      [
+        "ARK官网／订阅",
+        "https://www.ark-invest.com/"
+      ],
+      [
+        "X",
+        "https://x.com/CathieDWood"
+      ]
+    ],
+    "note": "AI带来“良性通缩”：实际增长可达7%–8%，短端利率最终走向6.5%–7.5%；大幅加仓Beam、Intellia。数字及利率逻辑均需对照原文。",
+    "channel": "ARK研究、交易邮件及视频。基金交易不自动等同于个人判断。",
+    "ageSnapshot": 70,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "颠覆创新；ARK公开研究与交易记录。",
+    "markets": [
+      "二级",
+      "一级"
+    ],
+    "domains": [
+      "AI",
+      "成长"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "wood-specialty",
+        "text": "颠覆创新；ARK公开研究与交易记录。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "elerian",
+    "name": "埃尔-埃里安",
+    "en": "Mohamed El-Erian",
+    "group": "中生代与科技投资人",
+    "query": "\"Mohamed El-Erian\" (Fed OR jobs OR economy OR bonds)",
+    "links": [
+      [
+        "X",
+        "https://x.com/elerianm"
+      ],
+      [
+        "CNBC",
+        "https://www.cnbc.com/"
+      ],
+      [
+        "Project Syndicate",
+        "https://www.project-syndicate.org/"
+      ]
+    ],
+    "note": "原稿称10月2日点评9月非农：仅增2.9万人、失业率4.2%；批评财政部干预债市是“创可贴”。宏观数据应另查官方统计。",
+    "channel": "公开专栏、X与电视访谈。",
+    "ageSnapshot": 68,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "宏观／政策；PIMCO任职及Allianz当前职位待核验。",
+    "markets": [
+      "二级",
+      "债务"
+    ],
+    "domains": [
+      "宏观"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "elerian-specialty",
+        "text": "宏观／政策；PIMCO任职及Allianz当前职位待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "ackman",
+    "name": "比尔·阿克曼",
+    "en": "Bill Ackman",
+    "group": "中生代与科技投资人",
+    "query": "\"Bill Ackman\" (AI OR Anthropic OR Brookfield OR interview)",
+    "links": [
+      [
+        "X",
+        "https://x.com/BillAckman"
+      ],
+      [
+        "Pershing Square",
+        "https://pershingsquareholdings.com/"
+      ]
+    ],
+    "note": "AI“极大地提高了颠覆风险”；不参与Anthropic IPO；称Brookfield为“AI赢家”；谈到互联网对百科全书的冲击。",
+    "channel": "本人X、公开访谈及Pershing Square股东资料。",
+    "ageSnapshot": 60,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "集中／激进投资；Pershing Square资产规模及业绩待核验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "价值",
+      "事件驱动"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "ackman-specialty",
+        "text": "集中／激进投资；Pershing Square资产规模及业绩待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "asness",
+    "name": "Cliff Asness",
+    "en": "Cliff Asness",
+    "group": "中生代与科技投资人",
+    "query": "\"Cliff Asness\" (AI OR market OR value OR AQR)",
+    "links": [
+      [
+        "AQR观点",
+        "https://www.aqr.com/Insights"
+      ],
+      [
+        "X",
+        "https://x.com/CliffAsness"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "原稿从AQR二季度13F推断：加码AI平台股、大银行与雪佛龙，减持防御性医疗与公用事业。机构量化仓位不能直接归为个人表态。",
+    "channel": "AQR论文及本人文章、X；AQR机构持仓独立分类。",
+    "ageSnapshot": 59,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "量化／因子；论文与AQR策略。13F披露市值不能直接当作AUM。",
+    "markets": [
+      "二级",
+      "期权"
+    ],
+    "domains": [
+      "量化"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "asness-specialty",
+        "text": "量化／因子；论文与AQR策略。13F披露市值不能直接当作AUM。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "pal",
+    "name": "Raoul Pal",
+    "en": "Raoul Pal",
+    "group": "中生代与科技投资人",
+    "query": "\"Raoul Pal\" (liquidity OR everything OR crypto OR interview)",
+    "links": [
+      [
+        "Real Vision",
+        "https://www.realvision.com/"
+      ],
+      [
+        "X",
+        "https://x.com/RaoulGMI"
+      ],
+      [
+        "YouTube检索",
+        "https://www.youtube.com/results?search_query=Raoul+Pal"
+      ]
+    ],
+    "note": "9月《11%问题》：全球流动性约年增8%加2–3%通胀，形成11%的真实门槛；债券、黄金、房产都难以越过。",
+    "channel": "Real Vision、公开长文与视频；付费全文进入原平台。",
+    "ageSnapshot": 58,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "宏观／流动性；Real Vision及Global Macro Investor研究。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "宏观",
+      "加密"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "pal-specialty",
+        "text": "宏观／流动性；Real Vision及Global Macro Investor研究。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "griffin",
+    "name": "肯·格里芬",
+    "en": "Ken Griffin",
+    "group": "中生代与科技投资人",
+    "query": "\"Ken Griffin\" (AI OR productivity OR economy OR interview)",
+    "links": [
+      [
+        "Citadel洞察",
+        "https://www.citadel.com/insights/"
+      ],
+      [
+        "Citadel官网",
+        "https://www.citadel.com/"
+      ]
+    ],
+    "note": "1月达沃斯称AI热潮“炒作成分大于实际生产率提升”；7月据称抄底爆亏67%的Situational Awareness基金。交易与业绩数据待核查。",
+    "channel": "Citadel官方讲话、公开活动及访谈。",
+    "ageSnapshot": 58,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "多策略；Citadel基金与Citadel Securities做市业务须分开。",
+    "markets": [
+      "二级",
+      "期权"
+    ],
+    "domains": [
+      "量化",
+      "信用"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "griffin-specialty",
+        "text": "多策略；Citadel基金与Citadel Securities做市业务须分开。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "burry",
+    "name": "迈克尔·巴里",
+    "en": "Michael Burry",
+    "group": "中生代与科技投资人",
+    "query": "\"Michael Burry\" (AI OR bubble OR Nvidia OR options)",
+    "links": [
+      [
+        "Substack检索",
+        "https://substack.com/search/Michael%20Burry"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "9月底称AI泡沫“可能比预期更早破裂”；据称将美光、Nebius、SOXX、Palantir空头换成2027年到期看跌期权。",
+    "channel": "已确认身份的公开通讯、访谈和SEC材料；未预设未经确认的账号。",
+    "ageSnapshot": 55,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "C",
+    "specialty": "逆向／价值；次贷交易及收益数字待核验。",
+    "markets": [
+      "二级",
+      "期权"
+    ],
+    "domains": [
+      "价值",
+      "AI"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "burry-specialty",
+        "text": "逆向／价值；次贷交易及收益数字待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "honghao",
+    "name": "洪灏",
+    "en": "Hong Hao",
+    "group": "中文市场",
+    "query": "\"洪灏\" (宏观 OR 股市 OR 人工智能 OR 算力)",
+    "links": [
+      [
+        "微博检索",
+        "https://s.weibo.com/weibo?q=%E6%B4%AA%E7%81%8F"
+      ],
+      [
+        "微信公众号检索",
+        "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%AA%E7%81%8F%E7%9A%84%E5%AE%8F%E8%A7%82%E7%AD%96%E7%95%A5"
+      ],
+      [
+        "瑞士宝盛",
+        "https://www.juliusbaer.com/"
+      ]
+    ],
+    "note": "中国股票ETF空头比率据称创20多年新高；四季度尤其10月前后或有交易性反弹；5–10年视角下AI算力与存储需求仍被低估。",
+    "channel": "“洪灏的宏观策略”、公开对谈及微博。付费内容仅提供入口。",
+    "ageSnapshot": 52,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "D",
+    "specialty": "宏观／策略；任职、奖项及著作记录待核验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "宏观",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "honghao-specialty",
+        "text": "宏观／策略；任职、奖项及著作记录待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageApproximate": true
+  },
+  {
+    "id": "danbin",
+    "name": "但斌",
+    "en": "Dan Bin",
+    "group": "中文市场",
+    "query": "\"但斌\" (人工智能 OR 牛市 OR 投资 OR 杠杆)",
+    "links": [
+      [
+        "微博检索",
+        "https://s.weibo.com/weibo?q=%E4%BD%86%E6%96%8C"
+      ],
+      [
+        "YouTube检索",
+        "https://www.youtube.com/results?search_query=%E4%BD%86%E6%96%8C+%E6%8A%95%E8%B5%84"
+      ]
+    ],
+    "note": "“人工智能是未来十年的超级主线牛市”；7月回调中据称满仓坚守；“从来不加杠杆、不融资不借钱”。",
+    "channel": "微博、公开视频及公开访谈；账号需核验认证，基金仓位另查。",
+    "ageSnapshot": 59,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "D",
+    "specialty": "主观／成长；机构成立时间及长期净值待核验。",
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "成长",
+      "AI",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "danbin-specialty",
+        "text": "主观／成长；机构成立时间及长期净值待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "fupeng",
+    "name": "付鹏",
+    "en": "Fu Peng",
+    "group": "中文市场",
+    "query": "\"付鹏\" (财经 OR 生产力 OR 人工智能 OR 逆潮)",
+    "links": [
+      [
+        "微博检索",
+        "https://s.weibo.com/weibo?q=%E4%BB%98%E9%B9%8F%E7%9A%84%E8%B4%A2%E7%BB%8F%E4%B8%96%E7%95%8C"
+      ],
+      [
+        "公开视频检索",
+        "https://www.youtube.com/results?search_query=%E4%BB%98%E9%B9%8F+%E6%BC%94%E8%AE%B2"
+      ]
+    ],
+    "note": "提出“生产力—生产关系—制度”齿轮模型，将当下定义为“逆潮”；借佩雷斯技术革命四阶段，认为AI从狂热期向转折点过渡。",
+    "channel": "“付鹏的财经世界”、公开视频及公开论坛演讲。",
+    "ageSnapshot": null,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "D",
+    "specialty": "宏观／FICC；任职、著作及公开研究待核验。",
+    "markets": [
+      "二级",
+      "债务"
+    ],
+    "domains": [
+      "宏观",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "fupeng-specialty",
+        "text": "宏观／FICC；任职、著作及公开研究待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "duan",
+    "name": "段永平",
+    "en": "Duan Yongping",
+    "group": "中文市场",
+    "query": "\"段永平\" (茅台 OR 英伟达 OR 投资 OR 特斯拉)",
+    "links": [
+      [
+        "雪球账号检索",
+        "https://xueqiu.com/k?q=%E5%A4%A7%E9%81%93%E6%97%A0%E5%BD%A2%E6%88%91%E6%9C%89%E5%9E%8B"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "一季度据称清仓阿里、台积电，建仓特斯拉、加仓英伟达；9月28日据称宣布买入3万股茅台。机构披露、个人账户与截图应分别核查。",
+    "channel": "雪球“大道无形我有型”及公开访谈；机构13F不等于个人全部仓位。",
+    "ageSnapshot": 65,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "D",
+    "specialty": "主观／价值；早期企业经历与投资记录须分主体核验。",
+    "markets": [
+      "二级",
+      "一级"
+    ],
+    "domains": [
+      "价值",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "duan-specialty",
+        "text": "主观／价值；早期企业经历与投资记录须分主体核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "lilu",
+    "name": "李录",
+    "en": "Li Lu",
+    "group": "中文市场",
+    "query": "\"李录\" (投资 OR 喜马拉雅 OR 谷歌 OR 演讲)",
+    "links": [
+      [
+        "Himalaya Capital",
+        "https://www.himalayacapital.com/"
+      ],
+      [
+        "公开演讲检索",
+        "https://www.youtube.com/results?search_query=Li+Lu+speech"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "原稿称“无任何公开渠道，只能通过13F反推”；二季度持仓据称37亿美元，谷歌近48%、拼多多增持133.53%，清仓美国银行等6只。应补充公开演讲渠道，不把持仓当作发言。",
+    "channel": "机构官网、公开演讲及13F。低频发声不代表没有公开言论。",
+    "ageSnapshot": 60,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "D",
+    "specialty": "主观／价值；机构持仓、公开演讲及任职记录。",
+    "markets": [
+      "二级",
+      "一级"
+    ],
+    "domains": [
+      "价值",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "lilu-specialty",
+        "text": "主观／价值；机构持仓、公开演讲及任职记录。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "lianghong",
+    "name": "梁宏",
+    "en": "Liang Hong",
+    "query": "\"梁宏\" (希瓦 OR 人工智能 OR 存储)",
+    "links": [
+      [
+        "雪球检索",
+        "https://xueqiu.com/k?q=梁宏"
+      ]
+    ],
+    "note": "7月称下跌并非AI基本面转折，而是持仓拥挤和杠杆过高导致集中出清；存储“鱼头没吃到、鱼身已吃到”。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "D",
+    "specialty": "主观／产业贝塔；原稿称希瓦规模超200亿、2017年私募收益冠军、2024年百亿私募亚军。",
+    "ageSnapshot": 48,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级",
+      "期权"
+    ],
+    "domains": [
+      "成长",
+      "AI",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "lianghong-specialty",
+        "text": "主观／产业贝塔；原稿称希瓦规模超200亿、2017年私募收益冠军、2024年百亿私募亚军。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "wangjing",
+    "name": "望京博格（郑志勇）",
+    "en": "Zheng Zhiyong",
+    "query": "\"望京博格\" (港股 OR 指数 OR 基金)",
+    "links": [
+      [
+        "雪球检索",
+        "https://xueqiu.com/k?q=望京博格"
+      ],
+      [
+        "公众号检索",
+        "https://weixin.sogou.com/weixin?type=2&query=绿巨人星球"
+      ]
+    ],
+    "note": "10月2日拆解港股持有人结构：外资37.8%、南向13%；10月4日讨论美英债收益率上升与港股吸引力。统计范围、日期和原话待核验。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "D",
+    "specialty": "指数／配置；原稿称建立绿巨人组合，出版或翻译多本投资著作。",
+    "ageSnapshot": 44,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "指数",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "wangjing-specialty",
+        "text": "指数／配置；原稿称建立绿巨人组合，出版或翻译多本投资著作。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "libei",
+    "name": "李蓓",
+    "en": "Li Bei",
+    "group": "中文市场",
+    "query": "\"李蓓\" (半夏 OR 地产 OR 人工智能 OR 资本开支)",
+    "links": [
+      [
+        "微信公众号检索",
+        "https://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E5%A4%8F%E6%8A%95%E8%B5%84"
+      ],
+      [
+        "公开访谈检索",
+        "https://www.youtube.com/results?search_query=%E6%9D%8E%E8%93%93+%E6%8A%95%E8%B5%84"
+      ]
+    ],
+    "note": "地产机会从“十年一遇”升级为“二十年一遇”；AI资本开支环比增速或于明年年中见顶，还有“第二波下跌”。“明年”须以原文日期解释。",
+    "channel": "半夏投资公开月报和访谈；核查发布主体及具体日期。",
+    "ageSnapshot": 43,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "D",
+    "specialty": "宏观对冲；产品净值、收益与期权风险需核验。",
+    "markets": [
+      "二级",
+      "期权"
+    ],
+    "domains": [
+      "宏观",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "libei-specialty",
+        "text": "宏观对冲；产品净值、收益与期权风险需核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "wangyiping",
+    "name": "王一平",
+    "en": "Wang Yiping",
+    "query": "\"王一平\" (进化论 OR AI OR 量化)",
+    "links": [
+      [
+        "公众号检索",
+        "https://weixin.sogou.com/weixin?type=2&query=进化论资产"
+      ]
+    ],
+    "note": "6月称AI产业回调属于技术型回调，产业趋势未变；原稿称5月9日起暂停复合策略新客申购。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "D",
+    "specialty": "主观＋量化；原稿称进化论规模超300亿、获量化及主动双金牛奖。",
+    "ageSnapshot": null,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "量化",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "wangyiping-specialty",
+        "text": "主观＋量化；原稿称进化论规模超300亿、获量化及主动双金牛奖。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageNote": "原稿约40–41岁，依据入学年份推算；不据此确认出生年"
+  },
+  {
+    "id": "naval",
+    "name": "Naval Ravikant",
+    "en": "Naval Ravikant",
+    "query": "\"Naval Ravikant\" (AI OR investing OR industrial)",
+    "links": [
+      [
+        "本人博客",
+        "https://nav.al/"
+      ],
+      [
+        "X",
+        "https://x.com/naval"
+      ]
+    ],
+    "note": "6月《The AI Industrial Revolution》：衡量标准从“你产出了什么”转向“你建立了什么”；刻意不学提示词技巧，因为模型进化快于使用技巧优化。文章、时间与措辞待核验。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "E",
+    "specialty": "天使／思想；AngelList联合创始人，早期投资记录待逐项核验。",
+    "ageSnapshot": 51,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "一级"
+    ],
+    "domains": [
+      "AI",
+      "早期"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "naval-specialty",
+        "text": "天使／思想；AngelList联合创始人，早期投资记录待逐项核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "chamath",
+    "name": "Chamath",
+    "en": "Chamath Palihapitiya",
+    "group": "中生代与科技投资人",
+    "query": "\"Chamath Palihapitiya\" (AI OR Anthropic OR All-In OR 8090)",
+    "links": [
+      [
+        "All-In播客",
+        "https://www.allin.com/"
+      ],
+      [
+        "X",
+        "https://x.com/chamath"
+      ]
+    ],
+    "note": "6月据称出任8090 Labs CEO并完成1.35亿美元A轮；9月将Anthropic IPO类比菲利普莫里斯。",
+    "channel": "All-In播客、本人X与公司公开材料。",
+    "ageSnapshot": 50,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "E",
+    "specialty": "VC／SPAC；Social Capital投资、退出和SPAC结果待核验。",
+    "markets": [
+      "一级",
+      "二级"
+    ],
+    "domains": [
+      "AI",
+      "早期"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "chamath-specialty",
+        "text": "VC／SPAC；Social Capital投资、退出和SPAC结果待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "hayes",
+    "name": "Arthur Hayes",
+    "en": "Arthur Hayes",
+    "query": "\"Arthur Hayes\" (AI OR debt OR bitcoin OR Safety)",
+    "links": [
+      [
+        "公开通讯",
+        "https://cryptohayes.substack.com/"
+      ],
+      [
+        "X",
+        "https://x.com/CryptoHayes"
+      ]
+    ],
+    "note": "9月22日《Safety First》：把AI实验室“安全优先”解释为需求疲软的遮羞布；讨论AI债务及保险业风险，推演印钞利好比特币。债务金额及逻辑均待对照原文。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "E",
+    "specialty": "宏观／加密；原稿列BitMEX联合创始人、Maelstrom CIO。",
+    "ageSnapshot": 41,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级",
+      "期权",
+      "债务"
+    ],
+    "domains": [
+      "加密",
+      "宏观"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "hayes-specialty",
+        "text": "宏观／加密；原稿列BitMEX联合创始人、Maelstrom CIO。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "housel",
+    "name": "Morgan Housel",
+    "en": "Morgan Housel",
+    "query": "\"Morgan Housel\" (AI OR housing OR money OR psychology)",
+    "links": [
+      [
+        "Collaborative Fund博客",
+        "https://collabfund.com/blog/"
+      ],
+      [
+        "X",
+        "https://x.com/morganhousel"
+      ]
+    ],
+    "note": "1月6日《A Few Things I’m Pretty Sure About》讨论住房可负担性与社会问题；称人们怀疑AI，与对互联网和手机是否改善生活的疑问有关。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "E",
+    "specialty": "行为金融／写作；著作销量、译语数量及荣誉需分别核验。",
+    "ageSnapshot": 42,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [],
+    "domains": [
+      "行为金融"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "housel-specialty",
+        "text": "行为金融／写作；著作销量、译语数量及荣誉需分别核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageApproximate": true
+  },
+  {
+    "id": "batnick",
+    "name": "Michael Batnick",
+    "en": "Michael Batnick",
+    "query": "\"Michael Batnick\" (Animal OR leverage OR investing)",
+    "links": [
+      [
+        "本人博客",
+        "https://theirrelevantinvestor.com/"
+      ],
+      [
+        "Ritholtz官网",
+        "https://ritholtzwealth.com/"
+      ]
+    ],
+    "note": "8月5日Animal Spirits EP.476据称复盘Situational Awareness事件，强调杠杆风险、60/40组合与行为差距。事件本身及播客措辞待核验。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "E",
+    "specialty": "主观／配置；原稿列Ritholtz资管CIO，当前任职待核验。",
+    "ageSnapshot": 40,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "指数",
+      "配置"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "batnick-specialty",
+        "text": "主观／配置；原稿列Ritholtz资管CIO，当前任职待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageApproximate": true
+  },
+  {
+    "id": "carlson",
+    "name": "Ben Carlson",
+    "en": "Ben Carlson",
+    "query": "\"Ben Carlson\" (momentum OR investing OR Animal)",
+    "links": [
+      [
+        "本人博客",
+        "https://awealthofcommonsense.com/"
+      ],
+      [
+        "Ritholtz官网",
+        "https://ritholtzwealth.com/"
+      ]
+    ],
+    "note": "8月10日Talk Your Book据称与Batnick讨论动量投资为何有效；观点范围与节目日期待核验。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "E",
+    "specialty": "资产配置／写作；原稿列Ritholtz机构资产管理总监，当前任职待核验。",
+    "ageSnapshot": 40,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "指数",
+      "配置"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "carlson-specialty",
+        "text": "资产配置／写作；原稿列Ritholtz机构资产管理总监，当前任职待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageApproximate": true
+  },
+  {
+    "id": "gross",
+    "name": "Daniel Gross",
+    "en": "Daniel Gross",
+    "query": "\"Daniel Gross\" (Meta OR compute OR NFDG OR SSI)",
+    "links": [
+      [
+        "个人网站候选",
+        "https://dcgross.com/"
+      ],
+      [
+        "NFDG",
+        "https://nfdg.com/"
+      ]
+    ],
+    "note": "原稿称2026年5月个人网站自述在Meta负责compute，仍任NFDG联席GP。属于任职信息，不自动认定为市场观点。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "一级／AI；Cue收购、苹果任职、YC及SSI经历逐项核验。",
+    "ageSnapshot": 35,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "一级"
+    ],
+    "domains": [
+      "AI",
+      "早期"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "gross-specialty",
+        "text": "一级／AI；Cue收购、苹果任职、YC及SSI经历逐项核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "yanwentao",
+    "name": "严文韬",
+    "en": "Yan Wentao",
+    "query": "\"严文韬\" (高瓴 OR DeepSeek OR 创投)",
+    "links": [
+      [
+        "高瓴官网",
+        "https://www.hillhouseinvestment.com/"
+      ],
+      [
+        "公开报道检索",
+        "https://www.baidu.com/s?wd=严文韬"
+      ]
+    ],
+    "note": "7月深圳大会据称讨论高瓴AI投资与00后创始人。原稿中的“已出任DeepSeek CFO”作为优先核验线索，不进入已确认任职。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "一级／AI创投；高瓴合伙人、投中奖项及DeepSeek CFO说法均待权威核验。",
+    "ageSnapshot": 35,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "一级"
+    ],
+    "domains": [
+      "AI",
+      "早期",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "yanwentao-specialty",
+        "text": "一级／AI创投；高瓴合伙人、投中奖项及DeepSeek CFO说法均待权威核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "cuikedi",
+    "name": "崔轲迪",
+    "en": "Cui Kedi",
+    "query": "\"崔轲迪\" (机器人 OR 具身 OR 百度风投)",
+    "links": [
+      [
+        "公开报道检索",
+        "https://www.baidu.com/s?wd=崔轲迪"
+      ]
+    ],
+    "note": "具身智能是AI问题而非制造业问题，“智能定义本体”；把2023–2026视为窗口期，称泡沫是共识形成后的正常现象。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "一级／具身智能；BV百度风投任职及项目投资记录待核验。",
+    "ageSnapshot": null,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "一级"
+    ],
+    "domains": [
+      "具身智能",
+      "早期",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "cuikedi-specialty",
+        "text": "一级／具身智能；BV百度风投任职及项目投资记录待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageNote": "原稿称95后"
+  },
+  {
+    "id": "xueyuxin",
+    "name": "薛钰新",
+    "en": "Xue Yuxin",
+    "query": "\"薛钰新\" (华年 OR 量化 OR 因子)",
+    "links": [
+      [
+        "公开报道检索",
+        "https://www.baidu.com/s?wd=薛钰新"
+      ]
+    ],
+    "note": "低频量化是“人脑与电脑共舞的艺术”；原稿称因子70%量价、30%基本面，坚持人工挖掘，拒绝暴力搜索与黑箱，不做子策略轮换。实测优势需原始实验支持。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "量化／中低频；教育、天演任职、管理规模及华年规模均待核验。",
+    "ageSnapshot": null,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "量化",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "xueyuxin-specialty",
+        "text": "量化／中低频；教育、天演任职、管理规模及华年规模均待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageNote": "原稿称90后"
+  },
+  {
+    "id": "liangce",
+    "name": "梁策",
+    "en": "Liang Ce",
+    "query": "\"梁策\" (前海开源 OR 光通信 OR 液冷)",
+    "links": [
+      [
+        "前海开源官网",
+        "https://www.qhkyfund.com/"
+      ],
+      [
+        "公开报道检索",
+        "https://www.baidu.com/s?wd=梁策+前海开源"
+      ]
+    ],
+    "note": "AI“重计算”，因此是重资产模式；高赔率框架，看好NPO/CPO、国内算力、液冷，对“AI涨价”资产谨慎，从主题转向业绩兑现。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "主观／科技；基金任职、产品业绩及暂停申购应以基金公告与季报核验。",
+    "ageSnapshot": null,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级"
+    ],
+    "domains": [
+      "AI",
+      "光互连",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "liangce-specialty",
+        "text": "主观／科技；基金任职、产品业绩及暂停申购应以基金公告与季报核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageNote": "原稿称90后"
+  },
+  {
+    "id": "liguangmi",
+    "name": "李广密",
+    "en": "Li Guangmi",
+    "query": "\"李广密\" (石象 OR DeepSeek OR 投资)",
+    "links": [
+      [
+        "公开报道检索",
+        "https://www.baidu.com/s?wd=李广密"
+      ]
+    ],
+    "note": "原稿称跟踪DeepSeek一年后斥资15亿元战略投资，认可长期科研攻坚。交易金额、主体及是否完成交易列为优先核验线索。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "一级／AI；石象科技身份及投资记录待核验。",
+    "ageSnapshot": null,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "一级"
+    ],
+    "domains": [
+      "AI",
+      "早期",
+      "中国"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "liguangmi-specialty",
+        "text": "一级／AI；石象科技身份及投资记录待核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ],
+    "ageNote": "原稿称90后"
+  },
+  {
+    "id": "leopold",
+    "name": "Leopold Aschenbrenner",
+    "en": "Leopold Aschenbrenner",
+    "query": "\"Leopold Aschenbrenner\" (Situational OR AI OR fund)",
+    "links": [
+      [
+        "本人网站",
+        "https://leopoldas.com/"
+      ],
+      [
+        "Situational Awareness论文",
+        "https://situational-awareness.ai/"
+      ],
+      [
+        "SEC EDGAR",
+        "https://www.sec.gov/edgar/search/"
+      ]
+    ],
+    "note": "原稿称7月24日投资者信邀请追加资金，随后72小时崩塌、160亿美元公开股票仓位折价卖给Citadel。整条事件链列为优先核验；不作为已确认爆仓事件。",
+    "channel": "公开来源与媒体检索；自动线索不等于本人表态。",
+    "originalGroup": "F",
+    "specialty": "AI研究／主题投资；教育、OpenAI任职、论文与基金记录需分别核验。",
+    "ageSnapshot": 25,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "markets": [
+      "二级",
+      "一级",
+      "期权"
+    ],
+    "domains": [
+      "AI"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "leopold-specialty",
+        "text": "AI研究／主题投资；教育、OpenAI任职、论文与基金记录需分别核验。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  },
+  {
+    "id": "buffett",
+    "name": "巴菲特",
+    "en": "Warren Buffett",
+    "group": "特别关注",
+    "query": "\"Warren Buffett\" (letter OR interview OR chairman OR market)",
+    "links": [
+      [
+        "伯克希尔官网",
+        "https://www.berkshirehathaway.com/"
+      ],
+      [
+        "公告",
+        "https://www.berkshirehathaway.com/news/2026news.html"
+      ],
+      [
+        "年度报告",
+        "https://www.berkshirehathaway.com/reports.html"
+      ]
+    ],
+    "note": "2026年9月18日转任名誉董事长并保留董事席位；该事项有伯克希尔官方公告。个人言论与继任管理层的股东信需区分。",
+    "channel": "伯克希尔公告、本人公开信与采访；不将Greg Abel股东信归为巴菲特观点。",
+    "ageSnapshot": 96,
+    "ageAsOf": "2026-10",
+    "ageStatus": "待核验",
+    "birthDate": null,
+    "originalGroup": "G",
+    "specialty": "价值／企业收购；长期收益、保险与持仓记录。",
+    "markets": [
+      "二级",
+      "一级"
+    ],
+    "domains": [
+      "价值"
+    ],
+    "identityStatus": "待核验",
+    "conflicts": [
+      {
+        "type": "利益关联",
+        "detail": "机构投资业务、持仓、出版／研究收费等需逐项核验；未查证不等于无关联。",
+        "status": "待核验",
+        "url": null
+      }
+    ],
+    "facts": [
+      {
+        "id": "buffett-specialty",
+        "text": "价值／企业收购；长期收益、保险与持仓记录。",
+        "status": "待核验",
+        "url": null,
+        "source": "用户原稿与26人版资料"
+      }
+    ]
+  }
+]
