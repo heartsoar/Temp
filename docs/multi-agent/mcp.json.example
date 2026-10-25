@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "codex": {
+      "command": "codex",
+      "args": ["mcp-server"]
+    },
+    "grok": {
+      "command": "python3",
+      "args": ["docs/multi-agent/grok_mcp.py"],
+      "env": { "XAI_API_KEY": "${XAI_API_KEY}" }
+    }
+  }
+}

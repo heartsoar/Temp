@@ -1,0 +1,5 @@
+# 追加到 ~/.codex/config.toml（Codex 作为执行者时，也能直接问 Grok）
+[mcp_servers.grok]
+command = "python3"
+args = ["docs/multi-agent/grok_mcp.py"]
+env = { XAI_API_KEY = "在此填写或改用 shell 环境变量" }
